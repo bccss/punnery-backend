@@ -1,1 +1,16 @@
-%h1 Hello world!
+- 2.times do
+  .topic-wrapper
+    .topic
+      Celebrities and holidays
+    .puns
+      - 3.times do
+        .pun
+          .pun-text
+            Kim Kardashing through the snow.
+          .pun-action
+            .up
+              %i.fa.fa-chevron-up
+            .score
+              = Random.rand(100)
+            .down
+              %i.fa.fa-chevron-down

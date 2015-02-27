@@ -34,6 +34,11 @@ gem 'puma'
 
 gem 'devise'
 
+# CSS Frameworks
+gem 'normalize-rails'
+gem 'bourbon'
+gem 'neat'
+gem 'bitters'
 gem 'haml-rails'
 
 gem 'rails_12factor', group: :production
